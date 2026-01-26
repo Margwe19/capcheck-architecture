@@ -1,4 +1,4 @@
-# CapCheck Technical Architecture
+# CapCheck AI Technical Architecture
 
 > Public documentation for the CapCheck AI fact-checking platform. This repo contains architecture decisions, design patterns, and technical deep-dives without proprietary code.
 
