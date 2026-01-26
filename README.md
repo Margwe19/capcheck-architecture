@@ -43,25 +43,25 @@ CapCheck is a fact-checking platform that uses a **LangGraph-based multi-agent p
 
 All verdicts are determined from retrieved evidence only. The LLM is explicitly constrained from using training knowledge to prevent hallucinations.
 
-→ See [decisions/001-evidence-only-synthesis.md](decisions/001-evidence-only-synthesis.md)
+→ See [decisions/001-evidence-only-synthesis.md](decisions/001_EVIDENCE_ONLY_SYNTHESIS.md)
 
 ### 2. Confidence Calibration
 
 The system detects when LLMs output default confidence values (like 60%) and recalculates based on source quality, quantity, and consensus.
 
-→ See [decisions/002-confidence-calibration.md](decisions/002-confidence-calibration.md)
+→ See [decisions/002-confidence-calibration.md](decisions/002_CONFIDENCE_CALIBRATION.md)
 
 ### 3. Model Selection Strategy
 
 Different models for different tasks based on latency, cost, and capability requirements.
 
-→ See [decisions/003-model-selection.md](decisions/003-model-selection.md)
+→ See [decisions/003-model-selection.md](decisions/003_MODEL_SELECTION.md)
 
 ### 4. Graceful Degradation
 
 Automatic fallback chain when services fail: V2 → V1, Perplexity → Brave Search + Claude.
 
-→ See [decisions/004-graceful-degradation.md](decisions/004-graceful-degradation.md)
+→ See [decisions/004-graceful-degradation.md](decisions/04_GRACEFUL_DEGRADATION.md)
 
 ## Documentation
 
